@@ -1,0 +1,47 @@
+
+.tableCont{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 10% 25% 30% 15% 20%;
+
+}
+.headings{
+  color: white;
+  background-color: gray;
+}
+.grid-container > div{
+    border: .1px solid black;
+    padding:15px 8px 0 8px;
+}
+
+.paginationBtns{
+    width: 50%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    margin:30px auto;
+    justify-content: center;
+
+}
+
+.paginationBtns a{
+    padding:7px 10px;
+    margin: 6px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.paginationBtns a:hover{
+    background-color:black ;
+    color: white;
+}
+
+.activeBtn a{
+    background-color:black ;
+    color: white;
+}
